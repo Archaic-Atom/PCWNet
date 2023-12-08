@@ -1,0 +1,436 @@
+nohup: 忽略输入
++ DATAPATH=/data/datasets/rzb/KITTI/Kitti2012
++ CUDA_VISIBLE_DEVICES=0,1,2,3
++ python save_disp.py --datapath /data/datasets/rzb/KITTI/Kitti2012 --testlist ./filenames/kitti12_test.txt --model gwcnet-gc --loadckpt /home/xwx/traincode/PCWNet1/checkpoints/kitti12/test/checkpoint_000299.ckpt
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+Mish activation loaded...
+loading model /home/xwx/traincode/PCWNet1/checkpoints/kitti12/test/checkpoint_000299.ckpt
+/home/xwx/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/functional.py:3737: UserWarning: nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.functional.upsample is deprecated. Use nn.functional.interpolate instead.")
+/home/xwx/anaconda3/envs/pytorch/lib/python3.9/site-packages/torch/nn/functional.py:4236: UserWarning: Default grid_sample and affine_grid behavior has changed to align_corners=False since 1.3.0. Please specify align_corners=True if the old behavior is desired. See the documentation of grid_sample for details.
+  warnings.warn(
+Iter 0/195, time = 22.630023
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000000_10.png (376, 1241)
+Iter 1/195, time = 1.087013
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000001_10.png (370, 1226)
+Iter 2/195, time = 1.086527
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000002_10.png (375, 1242)
+Iter 3/195, time = 1.085695
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000003_10.png (376, 1241)
+Iter 4/195, time = 1.086326
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000004_10.png (370, 1226)
+Iter 5/195, time = 1.086157
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000005_10.png (376, 1241)
+Iter 6/195, time = 1.087614
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000006_10.png (370, 1226)
+Iter 7/195, time = 1.086318
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000007_10.png (375, 1242)
+Iter 8/195, time = 1.086587
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000008_10.png (376, 1241)
+Iter 9/195, time = 1.086013
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000009_10.png (376, 1241)
+Iter 10/195, time = 1.087129
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000010_10.png (376, 1241)
+Iter 11/195, time = 1.085576
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000011_10.png (375, 1242)
+Iter 12/195, time = 1.086454
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000012_10.png (370, 1226)
+Iter 13/195, time = 1.085924
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000013_10.png (376, 1241)
+Iter 14/195, time = 1.086177
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000014_10.png (370, 1226)
+Iter 15/195, time = 1.085531
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000015_10.png (374, 1238)
+Iter 16/195, time = 1.086724
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000016_10.png (376, 1241)
+Iter 17/195, time = 1.086156
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000017_10.png (376, 1241)
+Iter 18/195, time = 1.085973
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000018_10.png (375, 1242)
+Iter 19/195, time = 1.087636
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000019_10.png (376, 1241)
+Iter 20/195, time = 1.085789
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000020_10.png (376, 1241)
+Iter 21/195, time = 1.085768
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000021_10.png (375, 1242)
+Iter 22/195, time = 1.086804
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000022_10.png (370, 1226)
+Iter 23/195, time = 1.086540
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000023_10.png (375, 1242)
+Iter 24/195, time = 1.086208
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000024_10.png (376, 1241)
+Iter 25/195, time = 1.085972
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000025_10.png (375, 1242)
+Iter 26/195, time = 1.086379
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000026_10.png (370, 1226)
+Iter 27/195, time = 1.086950
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000027_10.png (376, 1241)
+Iter 28/195, time = 1.086340
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000028_10.png (376, 1241)
+Iter 29/195, time = 1.085915
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000029_10.png (376, 1241)
+Iter 30/195, time = 1.085495
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000030_10.png (376, 1241)
+Iter 31/195, time = 1.086714
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000031_10.png (376, 1241)
+Iter 32/195, time = 1.123092
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000032_10.png (370, 1226)
+Iter 33/195, time = 1.087777
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000033_10.png (376, 1241)
+Iter 34/195, time = 1.088162
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000034_10.png (370, 1226)
+Iter 35/195, time = 1.086254
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000035_10.png (370, 1226)
+Iter 36/195, time = 1.087150
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000036_10.png (376, 1241)
+Iter 37/195, time = 1.085768
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000037_10.png (370, 1226)
+Iter 38/195, time = 1.087138
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000038_10.png (370, 1226)
+Iter 39/195, time = 1.087106
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000039_10.png (376, 1241)
+Iter 40/195, time = 1.086339
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000040_10.png (375, 1242)
+Iter 41/195, time = 1.086797
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000041_10.png (375, 1242)
+Iter 42/195, time = 1.087254
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000042_10.png (375, 1242)
+Iter 43/195, time = 1.087075
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000043_10.png (376, 1241)
+Iter 44/195, time = 1.085596
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000044_10.png (375, 1242)
+Iter 45/195, time = 1.086701
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000045_10.png (376, 1241)
+Iter 46/195, time = 1.086377
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000046_10.png (376, 1241)
+Iter 47/195, time = 1.086335
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000047_10.png (376, 1241)
+Iter 48/195, time = 1.086505
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000048_10.png (370, 1226)
+Iter 49/195, time = 1.086629
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000049_10.png (370, 1226)
+Iter 50/195, time = 1.086365
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000050_10.png (376, 1241)
+Iter 51/195, time = 1.087379
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000051_10.png (370, 1226)
+Iter 52/195, time = 1.086470
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000052_10.png (374, 1238)
+Iter 53/195, time = 1.168010
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000053_10.png (374, 1238)
+Iter 54/195, time = 1.086689
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000054_10.png (375, 1242)
+Iter 55/195, time = 1.086402
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000055_10.png (376, 1241)
+Iter 56/195, time = 1.089508
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000056_10.png (375, 1242)
+Iter 57/195, time = 1.086274
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000057_10.png (376, 1241)
+Iter 58/195, time = 1.086252
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000058_10.png (370, 1226)
+Iter 59/195, time = 1.086314
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000059_10.png (370, 1226)
+Iter 60/195, time = 1.087110
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000060_10.png (374, 1238)
+Iter 61/195, time = 1.086734
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000061_10.png (370, 1226)
+Iter 62/195, time = 1.087601
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000062_10.png (376, 1241)
+Iter 63/195, time = 1.086273
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000063_10.png (370, 1226)
+Iter 64/195, time = 1.086448
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000064_10.png (375, 1242)
+Iter 65/195, time = 1.086701
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000065_10.png (376, 1241)
+Iter 66/195, time = 1.086402
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000066_10.png (370, 1226)
+Iter 67/195, time = 1.086833
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000067_10.png (370, 1226)
+Iter 68/195, time = 1.087499
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000068_10.png (376, 1241)
+Iter 69/195, time = 1.086493
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000069_10.png (376, 1241)
+Iter 70/195, time = 1.087168
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000070_10.png (376, 1241)
+Iter 71/195, time = 1.086700
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000071_10.png (376, 1241)
+Iter 72/195, time = 1.086514
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000072_10.png (370, 1226)
+Iter 73/195, time = 1.086830
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000073_10.png (375, 1242)
+Iter 74/195, time = 1.088510
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000074_10.png (376, 1241)
+Iter 75/195, time = 1.088304
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000075_10.png (375, 1242)
+Iter 76/195, time = 1.086576
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000076_10.png (376, 1241)
+Iter 77/195, time = 1.086893
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000077_10.png (376, 1241)
+Iter 78/195, time = 1.086783
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000078_10.png (376, 1241)
+Iter 79/195, time = 1.088187
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000079_10.png (376, 1241)
+Iter 80/195, time = 1.086684
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000080_10.png (376, 1241)
+Iter 81/195, time = 1.087885
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000081_10.png (375, 1242)
+Iter 82/195, time = 1.086626
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000082_10.png (370, 1226)
+Iter 83/195, time = 1.087276
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000083_10.png (376, 1241)
+Iter 84/195, time = 1.087246
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000084_10.png (376, 1241)
+Iter 85/195, time = 1.087135
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000085_10.png (375, 1242)
+Iter 86/195, time = 1.086843
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000086_10.png (370, 1226)
+Iter 87/195, time = 1.086949
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000087_10.png (370, 1226)
+Iter 88/195, time = 1.087142
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000088_10.png (376, 1241)
+Iter 89/195, time = 1.087108
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000089_10.png (375, 1242)
+Iter 90/195, time = 1.086665
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000090_10.png (370, 1226)
+Iter 91/195, time = 1.086619
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000091_10.png (376, 1241)
+Iter 92/195, time = 1.088322
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000092_10.png (375, 1242)
+Iter 93/195, time = 1.087121
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000093_10.png (370, 1226)
+Iter 94/195, time = 1.086662
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000094_10.png (376, 1241)
+Iter 95/195, time = 1.087078
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000095_10.png (376, 1241)
+Iter 96/195, time = 1.086626
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000096_10.png (375, 1242)
+Iter 97/195, time = 1.086987
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000097_10.png (375, 1242)
+Iter 98/195, time = 1.087844
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000098_10.png (376, 1241)
+Iter 99/195, time = 1.086838
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000099_10.png (370, 1226)
+Iter 100/195, time = 1.087127
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000100_10.png (370, 1226)
+Iter 101/195, time = 1.088531
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000101_10.png (375, 1242)
+Iter 102/195, time = 1.086631
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000102_10.png (376, 1241)
+Iter 103/195, time = 1.087666
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000103_10.png (375, 1242)
+Iter 104/195, time = 1.088593
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000104_10.png (375, 1242)
+Iter 105/195, time = 1.086438
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000105_10.png (376, 1241)
+Iter 106/195, time = 1.087057
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000106_10.png (376, 1241)
+Iter 107/195, time = 1.087794
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000107_10.png (376, 1241)
+Iter 108/195, time = 1.168331
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000108_10.png (376, 1241)
+Iter 109/195, time = 1.086968
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000109_10.png (376, 1241)
+Iter 110/195, time = 1.088099
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000110_10.png (370, 1226)
+Iter 111/195, time = 1.087189
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000111_10.png (376, 1241)
+Iter 112/195, time = 1.086992
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000112_10.png (370, 1226)
+Iter 113/195, time = 1.087190
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000113_10.png (376, 1241)
+Iter 114/195, time = 1.086222
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000114_10.png (376, 1241)
+Iter 115/195, time = 1.086807
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000115_10.png (376, 1241)
+Iter 116/195, time = 1.087227
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000116_10.png (376, 1241)
+Iter 117/195, time = 1.088101
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000117_10.png (376, 1241)
+Iter 118/195, time = 1.087595
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000118_10.png (370, 1226)
+Iter 119/195, time = 1.087200
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000119_10.png (375, 1242)
+Iter 120/195, time = 1.088089
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000120_10.png (370, 1226)
+Iter 121/195, time = 1.086920
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000121_10.png (376, 1241)
+Iter 122/195, time = 1.087353
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000122_10.png (376, 1241)
+Iter 123/195, time = 1.086945
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000123_10.png (375, 1242)
+Iter 124/195, time = 1.086971
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000124_10.png (375, 1242)
+Iter 125/195, time = 1.087259
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000125_10.png (370, 1226)
+Iter 126/195, time = 1.087099
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000126_10.png (375, 1242)
+Iter 127/195, time = 1.086967
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000127_10.png (370, 1226)
+Iter 128/195, time = 1.087884
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000128_10.png (376, 1241)
+Iter 129/195, time = 1.086481
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000129_10.png (376, 1241)
+Iter 130/195, time = 1.086926
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000130_10.png (376, 1241)
+Iter 131/195, time = 1.086908
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000131_10.png (370, 1226)
+Iter 132/195, time = 1.087836
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000132_10.png (370, 1226)
+Iter 133/195, time = 1.087681
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000133_10.png (375, 1242)
+Iter 134/195, time = 1.088586
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000134_10.png (376, 1241)
+Iter 135/195, time = 1.086633
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000135_10.png (375, 1242)
+Iter 136/195, time = 1.087278
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000136_10.png (370, 1226)
+Iter 137/195, time = 1.087293
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000137_10.png (376, 1241)
+Iter 138/195, time = 1.086789
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000138_10.png (376, 1241)
+Iter 139/195, time = 1.086959
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000139_10.png (376, 1241)
+Iter 140/195, time = 1.088848
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000140_10.png (370, 1226)
+Iter 141/195, time = 1.086969
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000141_10.png (376, 1241)
+Iter 142/195, time = 1.087173
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000142_10.png (376, 1241)
+Iter 143/195, time = 1.087338
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000143_10.png (370, 1226)
+Iter 144/195, time = 1.088119
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000144_10.png (375, 1242)
+Iter 145/195, time = 1.087009
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000145_10.png (370, 1226)
+Iter 146/195, time = 1.087946
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000146_10.png (376, 1241)
+Iter 147/195, time = 1.087033
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000147_10.png (375, 1242)
+Iter 148/195, time = 1.086915
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000148_10.png (370, 1226)
+Iter 149/195, time = 1.087259
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000149_10.png (376, 1241)
+Iter 150/195, time = 1.087200
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000150_10.png (375, 1242)
+Iter 151/195, time = 1.087426
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000151_10.png (375, 1242)
+Iter 152/195, time = 1.088719
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000152_10.png (370, 1226)
+Iter 153/195, time = 1.087356
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000153_10.png (375, 1242)
+Iter 154/195, time = 1.087295
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000154_10.png (376, 1241)
+Iter 155/195, time = 1.087290
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000155_10.png (376, 1241)
+Iter 156/195, time = 1.087854
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000156_10.png (370, 1226)
+Iter 157/195, time = 1.087286
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000157_10.png (375, 1242)
+Iter 158/195, time = 1.087665
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000158_10.png (376, 1241)
+Iter 159/195, time = 1.087677
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000159_10.png (375, 1242)
+Iter 160/195, time = 1.087443
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000160_10.png (376, 1241)
+Iter 161/195, time = 1.087891
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000161_10.png (370, 1226)
+Iter 162/195, time = 1.086894
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000162_10.png (376, 1241)
+Iter 163/195, time = 1.087862
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000163_10.png (375, 1242)
+Iter 164/195, time = 1.087037
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000164_10.png (370, 1226)
+Iter 165/195, time = 1.087036
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000165_10.png (375, 1242)
+Iter 166/195, time = 1.087227
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000166_10.png (375, 1242)
+Iter 167/195, time = 1.087430
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000167_10.png (376, 1241)
+Iter 168/195, time = 1.087541
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000168_10.png (376, 1241)
+Iter 169/195, time = 1.169029
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000169_10.png (376, 1241)
+Iter 170/195, time = 1.087667
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000170_10.png (370, 1226)
+Iter 171/195, time = 1.088543
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000171_10.png (370, 1226)
+Iter 172/195, time = 1.087494
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000172_10.png (376, 1241)
+Iter 173/195, time = 1.087409
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000173_10.png (375, 1242)
+Iter 174/195, time = 1.087444
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000174_10.png (375, 1242)
+Iter 175/195, time = 1.088232
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000175_10.png (370, 1226)
+Iter 176/195, time = 1.086811
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000176_10.png (376, 1241)
+Iter 177/195, time = 1.086628
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000177_10.png (376, 1241)
+Iter 178/195, time = 1.088056
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000178_10.png (370, 1226)
+Iter 179/195, time = 1.087416
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000179_10.png (376, 1241)
+Iter 180/195, time = 1.087423
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000180_10.png (375, 1242)
+Iter 181/195, time = 1.088296
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000181_10.png (376, 1241)
+Iter 182/195, time = 1.087262
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000182_10.png (375, 1242)
+Iter 183/195, time = 1.087660
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000183_10.png (376, 1241)
+Iter 184/195, time = 1.087646
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000184_10.png (376, 1241)
+Iter 185/195, time = 1.088039
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000185_10.png (370, 1226)
+Iter 186/195, time = 1.087559
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000186_10.png (375, 1242)
+Iter 187/195, time = 1.088607
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000187_10.png (376, 1241)
+Iter 188/195, time = 1.086692
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000188_10.png (376, 1241)
+Iter 189/195, time = 1.087127
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000189_10.png (370, 1226)
+Iter 190/195, time = 1.087791
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000190_10.png (375, 1242)
+Iter 191/195, time = 1.086626
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000191_10.png (376, 1241)
+Iter 192/195, time = 1.087234
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000192_10.png (370, 1226)
+Iter 193/195, time = 1.088606
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000193_10.png (376, 1241)
+Iter 194/195, time = 1.087363
+saving to /home/xwx/traincode/PCWNet1/pre_picture/000194_10.png (375, 1242)
